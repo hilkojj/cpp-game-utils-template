@@ -3,7 +3,7 @@ import urllib.request
 import zipfile
 import os
 
-GU_REPO = "git@github.com:hilkojj/cpp-game-utils.git"
+GU_REPO = "https://github.com/hilkojj/cpp-game-utils.git"
 
 def command(str):
     subprocess.run(str.split(" "))
