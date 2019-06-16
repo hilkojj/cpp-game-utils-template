@@ -16,7 +16,9 @@ int main()
 
     std::cout << "Running game with OpenGL version: " << glGetString(GL_VERSION) << "\n";
 
+    // TODO: create your own screen that extends the Screen class (gu/screen.h)
     MeshScreen scr;
+
     gu::setScreen(&scr);
 
     gu::run();
