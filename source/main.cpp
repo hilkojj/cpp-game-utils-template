@@ -5,8 +5,8 @@
 int main()
 {
     gu::Config config;
-    config.height = 1600;
-    config.width = 900;
+    config.width = 1600;
+    config.height = 900;
     config.title = "My game";
     config.showFPSInTitleBar = true; // note: this option will hide the default title.
     config.vsync = false;

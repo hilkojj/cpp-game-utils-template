@@ -1,3 +1,0 @@
-[submodule "gu"]
-	path = gu
-	url = git@github.com:hilkojj/cpp-game-utils.git

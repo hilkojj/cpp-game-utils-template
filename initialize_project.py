@@ -21,7 +21,7 @@ def file(url, dst):
     urllib.request.urlretrieve(url, dst)
 
 
-command("git init")
+# command("git init")
 command(f"git submodule add {GU_REPO} gu")
 
 command("pip install --user glad")
