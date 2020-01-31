@@ -11,7 +11,7 @@ run `python3 initialize_project.py` to download dependencies.
 
 `cmake .` (only the first time, and everytime you add new files)
 
-`make`
+`make -j8` (`-j8` tells the compiler to use 8 threads)
 
 `cd ..`
 
@@ -26,7 +26,7 @@ run `python3 initialize_project.py` to download dependencies.
 
 `emconfigure cmake .` (only the first time, and everytime you add new files)
 
-`make`
+`make -j8`
 
 `emrun out/game.html`
 
